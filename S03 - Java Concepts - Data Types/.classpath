@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="4 - Reference Data Type - Strings Example"/>
+	<classpathentry kind="src" path="5 - String Methods - Part 1"/>
+	<classpathentry kind="src" path="6 - String Methods - Part 2"/>
+	<classpathentry kind="src" path="9 - Arrays"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
