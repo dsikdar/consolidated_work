@@ -96,12 +96,12 @@ public class collection {
 		//regex 
 		
 		
-		 String REGEX = "[+91*9831]......";// starts with +91 9831 and airtel number
+		 String REGEX = "[+91 9831]......*";// 
 		  
 	        // creare the string 
 	        // in which you want to search 
 	        String actualString 
-	            = "+91 9831676009"; 
+	            = "+91 9831676009 "; 
 	  
 	        // compile the regex to create pattern 
 	        // using compile() method 
