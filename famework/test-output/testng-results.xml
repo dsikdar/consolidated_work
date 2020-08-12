@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression TestSuite" duration-ms="10387" started-at="2020-08-12T14:03:20Z" finished-at="2020-08-12T14:03:30Z">
+    <groups>
+    </groups>
+    <test name="Test Home and Details page" duration-ms="10387" started-at="2020-08-12T14:03:20Z" finished-at="2020-08-12T14:03:30Z">
+      <class name="com.debajyoti.framework.TestHomePage">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.debajyoti.framework.TestHomePage@627551fb]" name="init" is-config="true" duration-ms="9171" started-at="2020-08-12T14:03:11Z" finished-at="2020-08-12T14:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testHomePage(java.lang.String, java.lang.String)[pri:1, instance:com.debajyoti.framework.TestHomePage@627551fb]" name="testHomePage" duration-ms="2560" started-at="2020-08-12T14:03:22Z" data-provider="provideUserNamePhoneNumber" finished-at="2020-08-12T14:03:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="testHomePage(java.lang.String, java.lang.String)[pri:1, instance:com.debajyoti.framework.TestHomePage@627551fb]" name="testHomePage" duration-ms="2406" started-at="2020-08-12T14:03:24Z" data-provider="provideUserNamePhoneNumber" finished-at="2020-08-12T14:03:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="testHomePage(java.lang.String, java.lang.String)[pri:1, instance:com.debajyoti.framework.TestHomePage@627551fb]" name="testHomePage" duration-ms="2906" started-at="2020-08-12T14:03:27Z" data-provider="provideUserNamePhoneNumber" finished-at="2020-08-12T14:03:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="testDetailsPage()[pri:2, instance:com.debajyoti.framework.TestHomePage@627551fb]" name="testDetailsPage" duration-ms="810" started-at="2020-08-12T14:03:30Z" finished-at="2020-08-12T14:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetailsPage -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.debajyoti.framework.TestHomePage@627551fb]" name="cleanup" is-config="true" duration-ms="2575" started-at="2020-08-12T14:03:30Z" finished-at="2020-08-12T14:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.debajyoti.framework.TestHomePage -->
+      <class name="com.debajyoti.framework.TestDetailsPage">
+        <test-method status="PASS" signature="testDetails()[pri:0, instance:com.debajyoti.framework.TestDetailsPage@2b552920]" name="testDetails" duration-ms="14" started-at="2020-08-12T14:03:20Z" finished-at="2020-08-12T14:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+      </class> <!-- com.debajyoti.framework.TestDetailsPage -->
+    </test> <!-- Test Home and Details page -->
+  </suite> <!-- Regression TestSuite -->
+</testng-results>

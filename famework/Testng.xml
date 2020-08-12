@@ -1,0 +1,9 @@
+<suite name="Regression TestSuite">
+
+<test name="Test Home and Details page">
+	<classes>
+		<class name="com.debajyoti.framework.TestHomePage"></class>
+		<class name="com.debajyoti.framework.TestDetailsPage"></class>
+	</classes>
+</test>
+</suite>

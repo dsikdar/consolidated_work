@@ -7,7 +7,7 @@ public class Hooks {
 
 	
 		 
-		 @Before
+		 @Before("@SignUpTest")
 		    public void beforeScenario(){
 		        System.out.println("This will run before the Scenario");
 		    } 

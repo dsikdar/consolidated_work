@@ -1,0 +1,8 @@
+<suite name="Regression TestSuite">
+
+<test name="FireFox Test">
+	<classes>
+		<class name="com.debajyoti.google.AppTest"></class>
+	</classes>
+</test>
+</suite>

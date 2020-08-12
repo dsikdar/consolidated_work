@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function greet(){
+var name = document.getElementById("name").value;
+var phonenumber= document.getElementById("phonenumber").value;
+document.write("Hi "+ name +" Contact #  : "+ phonenumber );
+}
+</script>
+</head>
+<body>
+	<h2>Get a Greeting !!! :-)</h2>
+	<form onsubmit=greet()>
+		<input type="text" id="name" value="xxxxxx"><br> <input
+			type="text" id="phonenumber" value="9999999999"><br>
+		<br> <input type="submit" value="Submit">
+	</form>
+
+</body>
+</html>

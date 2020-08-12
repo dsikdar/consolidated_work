@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression TestSuite]">
+  <test thread-count="5" name="Test Home and Details page(failed)">
+    <classes>
+      <class name="com.debajyoti.framework.TestHomePage">
+        <methods>
+          <include name="init"/>
+          <include name="testHomePage"/>
+        </methods>
+      </class> <!-- com.debajyoti.framework.TestHomePage -->
+    </classes>
+  </test> <!-- Test Home and Details page(failed) -->
+</suite> <!-- Failed suite [Regression TestSuite] -->

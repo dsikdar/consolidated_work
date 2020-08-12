@@ -1,0 +1,39 @@
+<html>
+<head>
+
+<script src="insertData.js">
+	function myFunction() {
+		var name = document.getElementById("name").value;
+		var phonenumber = document.getElementById("phonenumber").value;
+		document.write("name " + name + " phonenumber " + phonenumber);
+		insertData();
+		//sessionStorage.setItem("name", name);
+		//sessionStorage.setItem("phonenumber", phonenumber);
+		// var name=sessionStorage.getItem("name");
+		// var phonenumber=sessionStorage.getItem("phonenumber")
+		/*var sql = "INSERT INTO phonebook VALUES (name" + "," + "phonenumber)";
+		con.query(sql, function(err, result) {
+			if (err)
+				throw err;
+			console.log("1 record inserted");
+		});*/
+	}
+</script>
+
+
+</head>
+<body>
+
+	<p>Enter names in the fields, then click "Submit" to submit the
+		form:</p>
+
+	<form id="frm1"">
+		Name: <input type="text" name="fname" id="name"><br>
+		Phone Number: <input type="number" name="phoneNumber" id="phonenumber"><br>
+		<br> <input type="button" onclick="myFunction()" value="Submit">
+	</form>
+
+
+
+</body>
+</html>

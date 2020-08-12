@@ -1,0 +1,8 @@
+<suite name="Rest Assured">
+
+<test name="Test Postman">
+	<classes>
+		<class name="com.debajyoti.testrest.NewTest"></class>
+	</classes>
+</test>
+</suite>
