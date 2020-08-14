@@ -12,8 +12,10 @@ public class myFirstRestAssuredClass {
 
    public static void main(String args[]) {
 
-     getResponseBody();
-     getResponseStatus();
+    // getResponseBody();
+    // getResponseStatus();
+	 //  getResponseHeaders();
+	   getDetailsofContents();
 
 ; }
 
@@ -36,5 +38,41 @@ public static void getResponseStatus(){
 
    given().when().get(url).then().assertThat().statusCode(200);
 }
+
+public static void getResponseHeaders() {
+	/*System.out.println(given().queryParam("CUSTOMER_ID","68195")
+    .queryParam("PASSWORD","1234!")
+    .queryParam("Account_No","1").when().get("http://demo.guru99.com/V4/sinkministatement.php").getHeaders().asList().get(0).toString());*/
+	
+	/*System.out.println(given().queryParam("CUSTOMER_ID","68195")
+		    .queryParam("PASSWORD","1234!")
+		    .queryParam("Account_No","1").when().get("http://demo.guru99.com/V4/sinkministatement.php").getHeaders().toString());
+	System.out.println("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW");
+	
+	System.out.println(given().queryParam("CUSTOMER_ID","68195")
+    .queryParam("PASSWORD","1234!")
+    .queryParam("Account_No","1").when().get("http://demo.guru99.com/V4/sinkministatement.php").getHeader("Keep-Alive"));
+
+System.out.println("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW");*/
+	
+	/*System.out.println(given().queryParam("CUSTOMER_ID","68195")
+    .queryParam("PASSWORD","1234!")
+    .queryParam("Account_No","1").when().get("http://demo.guru99.com/V4/sinkministatement.php").then().log().headers());
+*/
+
+}
+public static void getDetailsofContents() {
+	//String[] amounts = when().get("http://demo.guru99.com/V4/sinkministatement.php?CUSTOMER_ID=68195&PASSWORD=1234!&Account_No=1").then().extract().jsonPath().get("result.statements.AMOUNT");
+	ArrayList<String> logins = when().get("https://api.github.com/users/hadley/orgs").then().extract().jsonPath().get("login");
+	for(String login:logins) {
+		System.out.println(login);
+	}
+
+	   // System.out.println("The amount value fetched is "+amounts);
+	    
+	
+	
+}
+
 
 }
