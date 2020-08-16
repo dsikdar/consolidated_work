@@ -33,6 +33,7 @@ public class TestSuiteBase {
 		WebDriver driver = null;
 		DesiredCapabilities caps = new DesiredCapabilities();
 		
+		
 		// Platforms
 		if (platform.equalsIgnoreCase("Windows")) {
 			caps.setPlatform(Platform.WINDOWS);

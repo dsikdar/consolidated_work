@@ -8,6 +8,22 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Strings {
+	
+	
+	//String result=str.subString(beginIndex)
+	//String result=str.subString(beginIndex,endIndex)
+	//str.charAt(index)
+	//String[] result=str.split("regex");
+	//strBuilder.setCharAt(index,'H')
+	//str.indexOf('char'/"String")
+	//str.indexOf('char'/"String",beginindex)
+	//str.lastIndexOf() see above
+	//str.replace('d','s');
+	//str.replace("dd","ss")
+	//str.replaceAll('d','s');
+	//str.contains(str2)//char sequence
+	//strBuilder.reverse()
+	
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -61,6 +77,10 @@ public class Strings {
 		StringBuilder two=new StringBuilder(sentence2);
 		two.reverse();
 		System.out.println(two);
+		
+		String del="dd";
+		
+		
 	}
 
 }
